@@ -38,6 +38,6 @@ trouble_shooter <- function(){
 
 
 coffee_time <- function(){
-  print("Tuesday 14:30-15:00")
-  print("Friday 14:30 -15:00")
+  print("Tuesday 14:30 - 15:00")
+  print("Friday 14:30 - 15:00")
 }
