@@ -30,7 +30,14 @@ trouble_shooter <- function(){
               "Does your variable contain what you think it does?",
               "Is your variable empty?",
               "What genome build are you using?",
-              "0 or 1 based indexing?"
+              "0 or 1 based indexing?",
+              "Did you google it?"
   )
   print(sample(sayings, size = 1))
+}
+
+
+coffee_time <- function(){
+  print("Tuesday 14:30-15:00")
+  print("Friday 14:30 -15:00")
 }
