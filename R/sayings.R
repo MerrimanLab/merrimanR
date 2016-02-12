@@ -1,5 +1,6 @@
-# a fun function to return common sayings
+# A collection of saysing to provide humour
 
+# a fun function to return common sayings
 just <- function(){
   sayings = c("Just...",
               "Just quickly...",
@@ -27,7 +28,9 @@ trouble_shooter <- function(){
               "Did you save it somewhere else?",
               "Is this the right version?",
               "Does your variable contain what you think it does?",
-              "Is your variable empty?"
+              "Is your variable empty?",
+              "What genome build are you using?",
+              "0 or 1 based indexing?"
   )
   print(sample(sayings, size = 1))
 }
