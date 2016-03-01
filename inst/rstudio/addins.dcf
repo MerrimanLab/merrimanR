@@ -7,3 +7,8 @@ Name: Function Template
 Description: creates function template to fill in
 Binding: functionTemplate
 Interactive: false
+
+Name: HTML RMD setup
+Description: creates new Rmd template
+Binding: html_rmd
+Interactive: false
