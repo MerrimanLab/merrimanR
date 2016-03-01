@@ -4,8 +4,6 @@
 #'
 #' @export
 
-functionTemplate <- function(){
-  rstudioapi::insertText(" <- function() {
-
-  } ")
+functionTemplate <- function() {
+  rstudioapi::insertText(" <- function() {\n\n} ")
 }
