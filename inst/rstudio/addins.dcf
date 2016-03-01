@@ -2,3 +2,8 @@ Name: Insert %>%
 Description: Inserts `%>%` at the cursor position.
 Binding: insertPipeAddin
 Interactive: false
+
+Name: Function Template
+Description: creates function template to fill in
+Binding: functionTemplate
+Interactive: false
