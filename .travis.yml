@@ -17,12 +17,4 @@ install:
     - ./travis-tool.sh install_github hadley/testthat
 
 
-on_failure:
-    - ./travis-tool.sh dump_logs
 
-env:
-  global:
-    - CRAN: http://cran.rstudio.com
-    - R_BUILD_ARGS="--no-build-vignettes --no-manual"
-    - R_CHECK_ARGS="--no-build-vignettes --no-manual --as-cran"
-    - BOOTSTRAP_LATEX=""
