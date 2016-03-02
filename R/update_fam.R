@@ -53,5 +53,7 @@ update_fam  <- function(fam = NULL, pheno_df = NULL, fid_col = NULL, iid_col = N
   if(nrow(fam) != nrow(updated_fam)){
     stop("Merge went weird, too many matches!")
   }
+  updated_fam <- c("FID", "IID", "PID","MID","SEX",pheno_col)
+  colnames(updated_fam) <- c("FID", "IID", "PID","MID","SEX","AFF")
   return(updated_fam)
 }
