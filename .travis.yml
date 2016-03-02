@@ -3,3 +3,12 @@
 language: r
 warnings_are_errors: true
 sudo: required
+
+install:
+      - ./travis-tool.sh install_github hadley/devtools
+      - ./travis-tool.sh install_github hadley/testthat
+
+script: ./travis-tool.sh run_tests
+
+on_failure:
+      - ./travis-tool.sh dump_logs
