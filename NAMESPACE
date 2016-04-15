@@ -2,4 +2,5 @@
 
 export(functionTemplate)
 export(insertPipeAddin)
+export(remove_empty_cols)
 export(update_fam)
