@@ -2,6 +2,7 @@
 #' @author Tanya Flynn
 #'
 #' @inheritParams powerOR
+#' @param title The title of the graph
 #' @family power functions
 #'
 #' @export

@@ -15,6 +15,8 @@ powerGraph(caseN = NULL, controlN = NULL, controlA1 = NULL,
 \item{controlA1}{The allele frequency in controls}
 
 \item{siglevel}{The P value required to be significant}
+
+\item{title}{The title of the graph}
 }
 \description{
 Create power graphs for case/control GWAS.
