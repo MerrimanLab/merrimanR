@@ -2,7 +2,7 @@
 % Please edit documentation in R/update_fam.R
 \name{update_fam}
 \alias{update_fam}
-\title{Update the affection column of a plink fam file with a specified phenotype/affection}
+\title{Update plink fam file affection column with specified phenotype/affection.}
 \usage{
 update_fam(fam = NULL, pheno_df = NULL, fid_col = NULL, iid_col = NULL,
   pheno_col = NULL)
@@ -19,7 +19,7 @@ update_fam(fam = NULL, pheno_df = NULL, fid_col = NULL, iid_col = NULL,
 \item{pheno_col}{The column name in pheno_df containing the phenotypes to put into the fam file}
 }
 \description{
-Update the affection column of a plink fam file with a specified phenotype/affection
+Update plink fam file affection column with specified phenotype/affection.
 }
 \author{
 Murray Cadzow

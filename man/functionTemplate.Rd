@@ -2,7 +2,7 @@
 % Please edit documentation in R/functionTemplate.R
 \name{functionTemplate}
 \alias{functionTemplate}
-\title{Insert function template}
+\title{Insert function template.}
 \usage{
 functionTemplate()
 }

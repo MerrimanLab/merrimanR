@@ -2,5 +2,7 @@
 
 export(functionTemplate)
 export(insertPipeAddin)
+export(powerGraph)
+export(powerOR)
 export(remove_empty_cols)
 export(update_fam)

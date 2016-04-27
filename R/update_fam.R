@@ -1,4 +1,4 @@
-#' Update the affection column of a plink fam file with a specified phenotype/affection
+#' Update plink fam file affection column with specified phenotype/affection.
 #' @author Murray Cadzow
 #'
 #' @param fam The plink fam file read into R as a data.frame

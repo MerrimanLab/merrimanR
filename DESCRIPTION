@@ -3,8 +3,8 @@ Type: Package
 Title: merrimanR
 Version: 0.1
 Date: 2016-02-12
-Authors@R: person("Murray", "Cadzow", email = "murray.cadzow@otago.ac.nz", role = c("aut", "cre"))
-Description: Contatains some functions that are useful for data manipulationand some other humour functions
+Authors@R: c(person("Murray", "Cadzow", email = "murray.cadzow@otago.ac.nz", role = c("aut", "cre")), person("Tanya","Flynn", role = c("aut")))
+Description: Contains some functions that are useful for data manipulation and some other humour functions
 License: MIT
 LazyData: TRUE
 Suggests:
