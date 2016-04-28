@@ -16,6 +16,8 @@ install:
     - ./travis-tool.sh install_deps
     - ./travis-tool.sh install_github hadley/devtools
     - ./travis-tool.sh install_github hadley/testthat
+    - ./travis-tool.sh github_package jimhester/covr
 
 
-
+after_success:
+  - Rscript -e 'covr::coveralls()'
