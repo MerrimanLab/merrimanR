@@ -13,8 +13,8 @@ before_install:
     - ./travis-tool.sh bootstrap
 
 install:
+  - ./travis-tool.sh install_github hadley/memoise
     - ./travis-tool.sh install_deps
-    - ./travis-tool.sh install_github hadley/memoise
     - ./travis-tool.sh install_github hadley/devtools
     - ./travis-tool.sh install_github hadley/testthat
     - ./travis-tool.sh install_github jimhester/covr
