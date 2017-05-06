@@ -10,6 +10,8 @@
 #'
 #' @section functions for R package teaching examples
 #'
+#' @section functions for querying reference resources:
+#' ldproxy
 #'
 #' @docType package
 #' @name merrimanR

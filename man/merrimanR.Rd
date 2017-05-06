@@ -17,6 +17,11 @@ powerGraph
 }
 
 \section{functions for R package teaching examples}{
+NA
+}
 
+\section{functions for querying reference resources}{
+
+ldproxy
 }
 

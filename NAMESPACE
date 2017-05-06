@@ -2,6 +2,7 @@
 
 export(functionTemplate)
 export(insertPipeAddin)
+export(ldlink_ldproxy)
 export(powerGraph)
 export(powerOR)
 export(remove_empty_cols)
