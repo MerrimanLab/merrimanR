@@ -15,4 +15,3 @@ remove empty columns from data.frame
 \author{
 Tanya Flynn
 }
-

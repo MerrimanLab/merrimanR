@@ -24,4 +24,3 @@ Update plink fam file affection column with specified phenotype/affection.
 \author{
 Murray Cadzow
 }
-

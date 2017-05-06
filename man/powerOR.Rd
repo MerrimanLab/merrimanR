@@ -21,10 +21,9 @@ powerOR(caseN = NULL, controlN = NULL, controlA1 = NULL,
 \description{
 Calculate power for case/control GWAS.
 }
+\seealso{
+Other power functions: \code{\link{powerGraph}}
+}
 \author{
 Tanya Flynn
 }
-\seealso{
-Other power.functions: \code{\link{powerGraph}}
-}
-

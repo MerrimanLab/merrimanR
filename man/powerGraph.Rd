@@ -21,10 +21,9 @@ powerGraph(caseN = NULL, controlN = NULL, controlA1 = NULL,
 \description{
 Create power graphs for case/control GWAS.
 }
+\seealso{
+Other power functions: \code{\link{powerOR}}
+}
 \author{
 Tanya Flynn
 }
-\seealso{
-Other power.functions: \code{\link{powerOR}}
-}
-
