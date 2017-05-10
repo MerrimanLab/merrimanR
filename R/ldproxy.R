@@ -24,7 +24,11 @@ ldlink_ldproxy <- function(rsid = NULL, pop = NULL){
 
   url <- paste0('https://analysistools.nci.nih.gov/LDlink/LDlinkRest/ldproxy?var=', rsid, '&pop=', pop, '&r2_d=r2')
   urldata <- RCurl::getURL(url)
-  return(read.delim(text = urldata, stringsAsFactors = FALSE))
+  result <- read.delim(text = urldata, stringsAsFactors = FALSE)
+  if(names(result) == "X."){
+    if(grep(result$X., pattern == "IOError") == 1) return(NULL)
+  }
+  return(result)
 }
 
 
