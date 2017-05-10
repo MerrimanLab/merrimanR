@@ -26,7 +26,7 @@ ldlink_ldproxy <- function(rsid = NULL, pop = NULL){
   urldata <- RCurl::getURL(url)
   result <- read.delim(text = urldata, stringsAsFactors = FALSE)
   if(names(result) == "X."){
-    if(grep(result$X., pattern == "IOError") == 1) return(NULL)
+    if(grep(result$X., pattern = "IOError") == 1) return(NULL)
   }
   return(result)
 }
