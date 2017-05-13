@@ -8,5 +8,7 @@ Description: Contains some functions that are useful for data manipulation and s
 License: MIT
 LazyData: TRUE
 Suggests:
-    testthat
+  testthat
+Depends:
+  RCurl
 RoxygenNote: 6.0.1

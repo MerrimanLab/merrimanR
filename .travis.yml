@@ -5,10 +5,7 @@ cache: packages
 warnings_are_errors: false
 sudo: false
 
-r_packages:
-  RCurl
-  devtools
-  testthat
+
 
 
 #script: ./travis-tool.sh run_tests
