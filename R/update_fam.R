@@ -43,7 +43,7 @@ update_fam  <- function(fam = NULL, pheno_df = NULL, fid_col = NULL, iid_col = N
 
   fam$sort <- as.numeric(row.names(fam))
   if(!missing(fid_col)){
-    updated_fam <- merge(fam, pheno_df[,c(fid_col,iid_col, pheno_col)], by.x = c("FID","IID"), by.y = c(fid_col,id_col), all.x = TRUE)
+    updated_fam <- merge(fam, pheno_df[,c(fid_col,iid_col, pheno_col)], by.x = c("FID","IID"), by.y = c(fid_col,iid_col), all.x = TRUE)
   } else {
     updated_fam <- merge(fam, pheno_df[,c(iid_col, pheno_col)], by.x = "IID", by.y = iid_col, all.x = TRUE)
   }
