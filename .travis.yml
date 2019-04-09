@@ -4,10 +4,13 @@ language: R
 sudo: false
 cache: packages
 
-r: release
-  install:
-    - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never");
+jobs:
+  inlcude:
+    - r: release
+    after_success:
+    - Rscript -e 'covr::codecov()'
+    install:
+      - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never")'
 
 
-after_success:
-  - Rscript -e 'covr::codecov()'
+
