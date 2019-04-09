@@ -7,10 +7,9 @@ cache: packages
 jobs:
   include:
     - r: release
-    after_success:
-    - Rscript -e 'covr::codecov()'
-    install:
-      - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never")'
-
-
+      after_success:
+      - Rscript -e 'covr::codecov()'
+    -r: release
+      install:
+        - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never")'
 
