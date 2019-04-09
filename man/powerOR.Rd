@@ -27,3 +27,4 @@ Other power functions: \code{\link{powerGraph}}
 \author{
 Tanya Flynn
 }
+\concept{power functions}

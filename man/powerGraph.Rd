@@ -27,3 +27,4 @@ Other power functions: \code{\link{powerOR}}
 \author{
 Tanya Flynn
 }
+\concept{power functions}

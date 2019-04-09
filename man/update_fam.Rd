@@ -4,8 +4,8 @@
 \alias{update_fam}
 \title{Update plink fam file affection column with specified phenotype/affection.}
 \usage{
-update_fam(fam = NULL, pheno_df = NULL, fid_col = NULL, iid_col = NULL,
-  pheno_col = NULL)
+update_fam(fam = NULL, pheno_df = NULL, fid_col = NULL,
+  iid_col = NULL, pheno_col = NULL)
 }
 \arguments{
 \item{fam}{The plink fam file read into R as a data.frame}

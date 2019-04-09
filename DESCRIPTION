@@ -8,7 +8,9 @@ Description: Contains some functions that are useful for data manipulation and s
 License: MIT
 LazyData: TRUE
 Suggests:
-  testthat
+    testthat,
+    covr
 Depends:
-  RCurl
-RoxygenNote: 6.0.1
+    RCurl,
+    R (>= 3.1)
+RoxygenNote: 6.1.1

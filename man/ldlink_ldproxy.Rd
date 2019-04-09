@@ -20,3 +20,4 @@ Machiela MJ, Chanock SJ. LDlink a web-based application for exploring population
 \author{
 Murray Cadzow
 }
+\concept{remote query}
