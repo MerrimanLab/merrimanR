@@ -12,3 +12,4 @@ jobs:
   -r: release
    install:
    - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never")'
+
