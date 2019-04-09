@@ -9,7 +9,7 @@ jobs:
   - r: release
    after_success:
    - Rscript -e 'covr::codecov()'
-  -r: release
+  - r: release
    install:
    - Rscript -e 'devtools::install_deps(dependencies = TRUE, upgrade = "never")'
 
