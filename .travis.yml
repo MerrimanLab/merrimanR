@@ -5,7 +5,7 @@ sudo: false
 cache: packages
 
 jobs:
-  inlcude:
+  include:
     - r: release
     after_success:
     - Rscript -e 'covr::codecov()'
